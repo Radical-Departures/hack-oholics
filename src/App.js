@@ -7,15 +7,19 @@ import NavBar from './components/navigation/NavBar';
 import Footer from './components/navigation/Footer';
 
 function App() {
-    return (
-        <div className="App">
-            <Router>
-                <NavBar/>
-                <Routes/>
-                <Footer/>
-            </Router>
-        </div>
-    );
+  return (
+    <div className="App">
+        <NavBar />
+        <Hero/>
+        <Card />
+        <Card />
+        <Card />
+        <Card />
+        <Card />
+        <Card />
+        <Footer />
+    </div>
+  );
 }
 
 export default App;

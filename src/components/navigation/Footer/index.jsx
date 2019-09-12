@@ -5,7 +5,7 @@ import { fonts } from '../../../styles/global';
 
 const FooterBar = styled.div`
 width: 100%;
-background-color: ${colors.primary};
+background-color: white;
 height: 50px;
 bottom: 0;
 position: fixed;
