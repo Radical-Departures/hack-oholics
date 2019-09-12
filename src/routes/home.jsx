@@ -6,7 +6,6 @@ class Home extends React.PureComponent {
     render() {
         return (
             <div>
-                <Hero/>
                 <Card />
             </div>
         );
