@@ -8,11 +8,6 @@ class Home extends React.PureComponent {
             <div>
                 <Hero/>
                 <Card />
-                <Card />
-                <Card />
-                <Card />
-                <Card />
-                <Card />
             </div>
         );
     }
