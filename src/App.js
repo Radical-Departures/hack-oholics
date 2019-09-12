@@ -12,11 +12,6 @@ function App() {
         <NavBar />
         <Hero/>
         <Card />
-        <Card />
-        <Card />
-        <Card />
-        <Card />
-        <Card />
         <Footer />
     </div>
   );

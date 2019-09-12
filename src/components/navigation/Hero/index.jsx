@@ -13,7 +13,7 @@ text-align: left;
 height: 300px;
 width: 100vw;
 text-align: center;
-background-color: blue;
+background-color: grey;
 `;
 
 
