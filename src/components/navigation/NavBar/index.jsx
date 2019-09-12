@@ -15,13 +15,14 @@ border-bottom: 1px solid black;
 
 `;
 
-const NavLink = styled.div`
+const NavLink = styled(Link)`
 font: black;
 color: white;
 display: inline-block;
 padding: 5px;
 padding-right: 50px;
 text-align: left;
+text-decoration: none;
 `;
 
 const NavLinkContainer = styled.div`
