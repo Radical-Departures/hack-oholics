@@ -13,7 +13,7 @@ text-align: left;
 height: 400px;
 width: 100vw;
 text-align: center;
-
+margin-top: 10px;
 `;
 
 const HeaderStyle = styled.div`

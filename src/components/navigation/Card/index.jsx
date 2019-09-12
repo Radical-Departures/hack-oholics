@@ -24,8 +24,8 @@ text-align: center;
 `;
 
 const CardBox = styled.div`
-max-width: 60vw;
-margin: 0 auto;
+width: 1200px;
+margin: 0 auto 1px auto;
 `;
 
 const CardTitle = styled.div`
