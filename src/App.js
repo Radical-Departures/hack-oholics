@@ -12,7 +12,6 @@ function App() {
             <Router>
                 <NavBar/>
                 <Routes/>
-                <Footer/>
             </Router>
         </div>
     );

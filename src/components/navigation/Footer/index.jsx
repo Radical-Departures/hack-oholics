@@ -5,7 +5,7 @@ import { fonts } from '../../../styles/global';
 
 const FooterBar = styled.div`
 width: 100%;
-background-color: white;
+background-color: black;
 height: 50px;
 bottom: 0;
 position: fixed;
@@ -20,6 +20,7 @@ border-top: 1px solid black;
 class Footer extends React.PureComponent {
   renderContent = () => {
 return <FooterBar>
+
       </FooterBar>
   }
 

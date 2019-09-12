@@ -7,7 +7,7 @@ import { fonts } from '../../../styles/global';
 
 const CardStyle = styled.div`
 font: ${fonts.primary};
-background-color: ${colors.secondary} ;
+background-color: rgba(0,0,0,0.3) ;
 color: white;
 padding: 20px;
 text-align: left;
@@ -16,6 +16,11 @@ width: 300px;
 margin: 20px;
 float: left;
 text-align: center;
+:hover {
+  background-color: rgba(0,0,0,0.4) ;
+
+}
+
 `;
 
 const CardBox = styled.div`
@@ -51,7 +56,7 @@ class Card extends React.PureComponent {
   
 renderContent = () => {
 return <CardBox >
-          <CardStyle><CardTitle>Healthcare specific</CardTitle>With two decades of experience providing learning solutions to the healthcare industry, we understand and implement compliant courses, including validated certificates and healthcare professional validation against national registers.</CardStyle>
+          <CardStyle><CardTitle><i className="fas fa-notes-medical"></i>Healthcare specific</CardTitle>With two decades of experience providing learning solutions to the healthcare industry, we understand and implement compliant courses, including validated certificates and healthcare professional validation against national registers.</CardStyle>
           <CardStyle><CardTitle>Forward-looking technology</CardTitle>We love that technology is constantly evolving. AirShip® is SCORM and xAPI compliant, with maintenance packages to ensure the technology is always kept up to date.</CardStyle>
           <CardStyle><CardTitle>Interactive and engaging learning experience</CardTitle>Learning isn't all reading and listening. We push the boundaries of interactive eLearning to produce memorable, engaging and interesting modules - with the performance reports to back it</CardStyle>
           <CardStyle><CardTitle>User needs at the heart</CardTitle>Learning begins with the student. That’s why we developed AirShip® with a user-centred design approach, giving you a smooth and straightforward end result</CardStyle>

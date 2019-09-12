@@ -5,7 +5,7 @@ import { colors, fonts } from '../../../styles/global';
 
 const MainNavBar = styled.div`
 width: 100%;
-background-color: white;
+background-color: #313639;
 height: 50px;
 top: 0;
 -webkit-box-shadow: 0px 6px 7px 0px rgba(138,138,138,0.50);
@@ -17,7 +17,7 @@ border-bottom: 1px solid black;
 
 const NavLink = styled.div`
 font: black;
-color: black;
+color: white;
 display: inline-block;
 padding: 5px;
 padding-right: 50px;
