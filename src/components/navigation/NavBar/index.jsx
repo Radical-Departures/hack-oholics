@@ -1,7 +1,7 @@
 import * as React from 'react';
+import { Link } from 'react-router-dom';
 import styled from 'styled-components';
-import { colors } from '../../../styles/global';
-import { fonts } from '../../../styles/global';
+import { colors, fonts } from '../../../styles/global';
 
 const MainNavBar = styled.div`
 width: 100%;
@@ -33,23 +33,18 @@ padding-right: 10px;
 text-align: right;
 `;
 
-class NavBar extends React.PureComponent {
-  renderContent = () => {
-return <MainNavBar>
-        <NavLinkContainer>
-          <NavLink>Features</NavLink>
-          <NavLink>Content</NavLink>
-          <NavLink>Why Airship&reg;?</NavLink>
-          <NavLink>Pricing</NavLink>
-          <NavLink>Get in touch</NavLink>
-        </NavLinkContainer>
-      </MainNavBar>
-  }
-
-  render() {
-    return this.renderContent();
-  }
+function NavBar({match}) {
+    return (
+        <MainNavBar>
+            <NavLinkContainer>
+                <NavLink to={`/features`}>Features</NavLink>
+                <NavLink to={`/content`}>Content</NavLink>
+                <NavLink to={`/why-airship`}>Why Airship&reg;?</NavLink>
+                <NavLink to={`/pricing`}>Pricing</NavLink>
+                <NavLink to={`/get-in-touch`}>Get in touch</NavLink>
+            </NavLinkContainer>
+        </MainNavBar>
+    );
 }
-
 
 export default NavBar;
