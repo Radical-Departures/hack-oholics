@@ -1,6 +1,6 @@
 export const colors = {
-  primary: '#383838',
-  secondary: 'white',
+  primary: 'rgb(181,218,162)',
+  secondary: 'rgb(27,103,177)',
   tertiary: 'orange',
   bodytext: 'black'
 };
